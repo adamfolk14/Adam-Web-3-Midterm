@@ -1,0 +1,13 @@
+/* =============
+    Header
+============= */
+
+header{
+
+    background-color: grey;
+    .content{
+display: grid;
+grid-template-columns: 1fr;
+
+    }
+}
