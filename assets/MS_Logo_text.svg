@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 965.58 350.2">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: GoodTimesRg-Regular, 'Good Times';
+        font-size: 81.8px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" y="128.65" width="63.89" height="63.89"/>
+  <rect class="cls-2" x="79.09" y="128.65" width="63.89" height="63.89"/>
+  <rect class="cls-2" x="79.09" y="49.56" width="63.89" height="63.89" transform="translate(192.54 -29.53) rotate(90)"/>
+  <rect class="cls-2" x="0" y="49.56" width="63.89" height="63.89" transform="translate(113.45 49.56) rotate(90)"/>
+  <rect class="cls-2" x="0" y="207.74" width="63.89" height="63.89"/>
+  <rect class="cls-2" x="79.09" y="207.74" width="63.89" height="63.89"/>
+  <rect class="cls-2" x="158.18" y="207.74" width="63.89" height="63.89" transform="translate(429.81 49.56) rotate(90)"/>
+  <text class="cls-1" transform="translate(224.03 175.72)"><tspan x="0" y="0">Mega Screen</tspan></text>
+</svg>
