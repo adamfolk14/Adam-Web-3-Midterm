@@ -336,6 +336,9 @@ template {
   grid-area: content;
 }
 
+/*body {
+    background-color: red;
+ } */
 /* =============
     Typography
 ============= */
@@ -377,14 +380,114 @@ header .content {
 /* =============
     Footer
 ============= */
-footer .content {
+.footer {
+  background-color: darkgray;
+}
+.footer .container .content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "";
+  grid-template-columns: 20% 80%;
+  grid-template-areas: "h3 h3" "img p" "h2 h2";
 }
-footer .content .youtube {
-  grid-area: YT;
+.footer .container .content img {
+  grid-area: img;
 }
-footer .content .twitter {
-  grid-area: twitter;
+.footer .container .content p {
+  grid-area: p;
+}
+.footer .container .content h3 {
+  grid-area: h3;
+}
+.footer .container .content h2 {
+  grid-area: h2;
+}
+.footer .container .content2 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas: "img img img img";
+}
+.footer .container .content2 img {
+  grid-area: img;
+}
+
+/* =============
+    Whatsnew
+============= */
+@media (min-width: 768px) {
+  .whatsnew.container {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+  }
+}
+@media (min-width: 1200px) {
+  .whatsnew.container {
+    grid-template-columns: auto 900px auto;
+  }
+}
+
+/* =============
+    Social Media
+============= */
+@media (min-width: 768px) {
+  .socialmedia ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .socialmedia ul {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "p1 p2 p3 p4";
+  }
+  .socialmedia ul .youtube {
+    grid-area: p1;
+  }
+  .socialmedia ul .twitter {
+    grid-area: p2;
+  }
+  .socialmedia ul .instagram {
+    grid-area: p3;
+  }
+  .socialmedia ul .facebook {
+    grid-area: p4;
+  }
+}
+
+/* =============
+    Divider
+============= */
+.divider .container .content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "h2 img" "a img";
+}
+.divider .container .content h2 {
+  grid-area: h2;
+}
+.divider .container .content a {
+  grid-area: a;
+}
+.divider .container .content img {
+  grid-area: img;
+}
+
+/* =============
+    Hero
+============= */
+.hero .container .content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "h2 ." "p a";
+}
+.hero .container .content h2 {
+  grid-area: h2;
+}
+.hero .container .content a {
+  grid-area: a;
+}
+.hero .container .content img {
+  grid-area: img;
+}
+.hero .container .content p {
+  grid-area: p;
 }

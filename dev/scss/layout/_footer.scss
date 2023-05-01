@@ -2,23 +2,60 @@
     Footer
 ============= */
 
-footer{
+.footer{
 
+    background-color: darkgray;
+
+    .container{
+
+    
     .content{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 20% 80%;
         grid-template-areas: 
-        ""
+        
+        "h3 h3"
+        "img p"
+        "h2 h2"
+        
         
         ;
-.youtube{
-    grid-area:YT;
-}
 
-.twitter{
-    grid-area:twitter;
-}
+        img{
+            grid-area: img;
+        }
+
+        p{
+            grid-area: p;
+        }
+
+        h3{
+            grid-area: h3;
+        }
+
+        h2{
+            grid-area: h2;
+        }
 
 
+        }
+
+
+
+        .content2{
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-areas: 
+            
+            "img img img img"
+            
+            
+            ;
+
+            img{
+                grid-area: img;
+            }
+            
+        }
     }
 }

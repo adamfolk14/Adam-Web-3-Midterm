@@ -1,0 +1,37 @@
+/* =============
+    Social Media
+============= */
+
+
+.socialmedia{
+
+    ul{
+        
+        @include md{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @include xl{
+
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas:
+            "p1 p2 p3 p4"
+            ;
+
+            .youtube{
+                grid-area: p1;
+            }
+
+            .twitter{
+                grid-area: p2;
+            }
+            .instagram{
+                grid-area: p3;
+            }
+            .facebook{
+                grid-area: p4;
+            }
+        }
+    }
+}
