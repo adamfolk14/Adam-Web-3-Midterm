@@ -8,6 +8,14 @@
 
     .container{
 
+        @include sm{
+            display: grid;
+            grid-template-columns: auto 357px auto;
+            grid-template-areas:
+            ". content ."
+            ;
+            }
+
     
     .content{
         display: grid;

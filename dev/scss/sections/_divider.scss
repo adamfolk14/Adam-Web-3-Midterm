@@ -7,6 +7,14 @@
 
     .container{
 
+        @include md{
+            display: grid;
+            grid-template-columns: auto 768px auto;
+            grid-template-areas:
+            ". content ."
+            ;
+            }
+
         .content{
 
             display: grid;

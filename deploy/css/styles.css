@@ -369,10 +369,17 @@ textarea {
 /* =============
     Header
 ============= */
-header {
+.header {
   background-color: grey;
 }
-header .content {
+@media (min-width: 992px) {
+  .header {
+    display: grid;
+    grid-template-columns: auto 1024px auto;
+    grid-template-areas: ". content .";
+  }
+}
+.header .content {
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -382,6 +389,13 @@ header .content {
 ============= */
 .footer {
   background-color: darkgray;
+}
+@media (min-width: 357px) {
+  .footer .container {
+    display: grid;
+    grid-template-columns: auto 357px auto;
+    grid-template-areas: ". content .";
+  }
 }
 .footer .container .content {
   display: grid;
@@ -412,16 +426,11 @@ header .content {
 /* =============
     Whatsnew
 ============= */
-@media (min-width: 768px) {
+@media (min-width: 357px) {
   .whatsnew.container {
     display: grid;
-    grid-template-columns: 16px auto 16px;
+    grid-template-columns: auto 357px auto;
     grid-template-areas: ". content .";
-  }
-}
-@media (min-width: 1200px) {
-  .whatsnew.container {
-    grid-template-columns: auto 900px auto;
   }
 }
 
@@ -431,7 +440,7 @@ header .content {
 @media (min-width: 768px) {
   .socialmedia ul {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 @media (min-width: 1200px) {
@@ -456,6 +465,13 @@ header .content {
 /* =============
     Divider
 ============= */
+@media (min-width: 768px) {
+  .divider .container {
+    display: grid;
+    grid-template-columns: auto 768px auto;
+    grid-template-areas: ". content .";
+  }
+}
 .divider .container .content {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -474,6 +490,18 @@ header .content {
 /* =============
     Hero
 ============= */
+@media (min-width: 768px) {
+  .hero .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "p1 p2";
+  }
+  .hero .container .office {
+    grid-area: p1;
+  }
+  .hero .container .location {
+    grid-area: p2;
+  }
+}
 .hero .container .content {
   display: grid;
   grid-template-columns: 50% 50%;

@@ -2,7 +2,15 @@
     Header
 ============= */
 
-header{
+.header{
+
+    @include lg{
+        display: grid;
+        grid-template-columns: auto 1024px auto;
+        grid-template-areas:
+        ". content ."
+        ;
+        }
 
     background-color: grey;
     .content{

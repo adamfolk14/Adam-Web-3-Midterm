@@ -6,16 +6,16 @@
 
     &.container {
 
-        @include md{
+
+
+        @include sm{
         display: grid;
-        grid-template-columns: 16px auto 16px;
+        grid-template-columns: auto 357px auto;
         grid-template-areas:
         ". content ."
         ;
         }
 
-        @include xl{
-            grid-template-columns: auto 900px auto;
-        }
+
     }
 }

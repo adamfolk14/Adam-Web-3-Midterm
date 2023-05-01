@@ -7,6 +7,23 @@
 
     .container{
 
+        @include md{
+
+            grid-template-columns: (1fr 1fr);
+            grid-template-areas:
+            "p1 p2"
+            ;
+
+            .office{
+                grid-area: p1;
+            }
+
+            .location{
+                grid-area: p2;
+            }
+        
+        }
+
         .content{
 
             display: grid;
