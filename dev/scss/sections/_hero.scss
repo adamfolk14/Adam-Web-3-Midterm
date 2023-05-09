@@ -5,50 +5,76 @@
 
 .hero{
 
-    .container{
-
+    
         @include md{
-
-            grid-template-columns: (1fr 1fr);
-            grid-template-areas:
-            "p1 p2"
-            ;
-
-            .office{
-                grid-area: p1;
-            }
-
-            .location{
-                grid-area: p2;
-            }
-        
-        }
-
-        .content{
-
             display: grid;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: auto 1fr 1fr auto;
             grid-template-areas:
-            "h2 ."
-            "p a"
-        
+            ". box-1 box-2 ."
             ;
+            }
+  
+            @include xl{
+                grid-template-columns: auto 1fr 1fr auto;
+                }
+    
+    
+            @include xxl{
+                grid-template-columns: auto 660px 660px auto;
+                }
+            
+        .container{
 
-            h2{
-                grid-area: h2;
+            @include xl{
+                grid-template-columns: 16px auto 16px;
+                }
+
+            &.box-1{
+                padding:20px 20px 14px 28px;
+                background-color: rgb(113, 33, 204);
+                @include md{
+                    grid-area: box-1;
+                }
+
             }
 
-            a{
-                grid-area: a;
+            &.box-2{
+                padding:20px 20px 14px 28px;
+                background-color: rgb(113, 33, 204);
+                @include md{
+                    grid-area: box-2;
+                }
+
             }
 
-            img{
-                grid-area: img;
-            }
+            .content{
 
-            p{
-                grid-area: p;
-            }
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-areas:
+                "h2 img"
+                "p img"
+                "a img"
+                ;
+
+                h2{
+                    grid-area: h2;
+                }
+
+                p{
+                    grid-area: p;
+                }
+    
+                a{
+                    grid-area: a;
+                }
+    
+                img{
+                    grid-area: img;
+                }
+
         }
+    
+
+        }       
     }
-}

@@ -159,6 +159,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/assets\/Mega-Screen-Logo-White.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/Mega-Screen-Logo-White.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/MS Logo Text.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -223,6 +233,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/assets\/phone-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/right-arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/right-arrow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -580,6 +600,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/Mega-Screen-Logo-White.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Mega-Screen-Logo-White.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/MS_Logo_text.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -654,6 +684,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/phone-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/right-arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/right-arrow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -1047,6 +1087,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_divider.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_gallery.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_gallery.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

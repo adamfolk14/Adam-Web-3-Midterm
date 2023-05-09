@@ -2,20 +2,123 @@
     Whatsnew
 ============= */
 
-.whatsnew{
+.whats-new{
 
-    &.container {
+    .whats-new-articles{
 
-
-
-        @include sm{
-        display: grid;
-        grid-template-columns: auto 357px auto;
-        grid-template-areas:
-        ". content ."
+        @include md{
+            display: grid;
+            
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas:
+            ". articles ."
         ;
         }
 
 
+        @include xl{
+            grid-template-columns: auto 1140px auto;
+        }
+
+        @include xxl{
+            grid-template-columns: auto 1320px auto;
+        }
+
+        ul.article-grid{
+
+
+            form{
+
+                button{
+
+                    background-color: rgb(113, 33, 204);
+                color: white;
+                }
+            }
+
+            @include md{
+                grid-area: articles;
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+
+                grid-template-areas:
+                "a1 a1 a2 a2"
+                "a3 a3 a4 a4"
+                ". a5 a5 .";
+            
+        }
+
+        @include lg{
+            grid-template-columns: repeat(6,1fr);
+            grid-template-areas:
+            "a1 a1 a2 a2 a3 a3"
+            ". a4 a4 a5 a5 .";    
     }
+
+
+    li{
+        .container{
+            
+
+            @include xl{
+            grid-template-columns: 16px auto 16px;
+
+            }
+        }
+
+        &.article-1{
+
+        
+            padding-top: 16px;
+
+            @include md{
+                grid-area: a1;
+                
+            }
+        }
+
+        &.article-2{
+
+            padding-top: 16px;
+
+            @include md{
+                grid-area: a2;
+                
+            }
+        }
+
+        &.article-3{
+
+            padding-top: 16px; 
+
+            @include md{
+                grid-area: a3;
+            }
+        }
+
+        &.article-4{
+
+            padding-top: 16px;
+
+            @include md{
+                grid-area: a4;
+            }
+        }
+
+        &.article-5{
+
+            padding-top: 16px;
+
+            @include md{
+                grid-area: a5;
+            }
+        }
+
+    }
+
+
+    }
+
+
+}
 }

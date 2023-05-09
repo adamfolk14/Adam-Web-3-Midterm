@@ -7,10 +7,36 @@
 
     ul{
         
-        @include md{
+        padding-left: 0;
+        
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
+            grid-template-areas:
+            "p1 p2 p3 p4"
+            ;
+
+            li{
+                border:1px solid gray;
+
+                border-radius:2px;
+            }
+
+            .youtube{
+                grid-area: p1;
+            }
+
+            .twitter{
+                grid-area: p2;
+            }
+            .instagram{
+                grid-area: p3;
+            }
+            .facebook{
+                grid-area: p4;
+            }
+
+
+        
 
         @include xl{
 

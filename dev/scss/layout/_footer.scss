@@ -2,68 +2,63 @@
     Footer
 ============= */
 
-.footer{
+footer{
 
-    background-color: darkgray;
+    background-color: rgb(37, 37, 37);
+    color: white;
 
-    .container{
-
-        @include sm{
-            display: grid;
-            grid-template-columns: auto 357px auto;
-            grid-template-areas:
-            ". content ."
-            ;
-            }
-
-    
     .content{
-        display: grid;
-        grid-template-columns: 20% 80%;
-        grid-template-areas: 
-        
-        "h3 h3"
-        "img p"
-        "h2 h2"
-        
-        
-        ;
 
-        img{
-            grid-area: img;
-        }
-
-        p{
-            grid-area: p;
-        }
-
-        h3{
-            grid-area: h3;
-        }
-
-        h2{
-            grid-area: h2;
-        }
-
-
-        }
-
-
-
-        .content2{
-            display: grid;
-            grid-template-columns: 25% 25% 25% 25%;
-            grid-template-areas: 
-            
-            "img img img img"
-            
-            
-            ;
-
-            img{
-                grid-area: img;
+        form{
+            button{
+                background-color: rgb(113, 33, 204);
+            color: white;
             }
-            
         }
+
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas:
+            "locations newsletter"
+            "locations follow"
+            ;
+            }
+
+        @include lg{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas:
+            "locations newsletter follow"
+            ;
+            }
+
+            .locations{
+
+                @include md{
+                    grid-area: locations;
+                }
+
+
+            }
+
+            .newsletter{
+
+                @include md{
+                    grid-area: newsletter;
+                }
+
+
+            }
+
+            .follow{
+
+                @include md{
+                    grid-area: follow;
+                }
+
+
+            }
+
+
     }
 }
