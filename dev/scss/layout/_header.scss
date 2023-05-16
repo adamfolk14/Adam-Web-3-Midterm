@@ -5,6 +5,7 @@
 header{
 
     @include lg{
+        
         display: grid;
         grid-template-columns: auto 1024px auto;
         grid-template-areas:
@@ -14,9 +15,24 @@ header{
 
     background-color: rgb(37, 37, 37);
     .content{
+
+        form{
+
+            button{
+
+                background-color: rgb(113, 33, 204);
+            border: none;
+            }
+        }
+
+
 display: grid;
 grid-template-columns: 1fr;
 padding-top: 16px;
+
+@include lg{
+    font-size: 35px;
+}
 
     }
 }

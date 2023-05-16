@@ -1,0 +1,53 @@
+/* =============
+    Search
+============= */
+
+.search {
+
+        margin: 25px 0 25px 0;
+
+        .content{
+
+
+            form{
+
+                display: flex;
+
+                input{
+                    color: black;
+                    font-size: 16px;
+                    width: 100%;
+
+                    border: none;
+                    border-bottom: 2px solid lightgray;
+
+                @include md{
+                    font-size: 30px;
+                }
+
+                @include lg{
+                    font-size: 35px;
+                }
+
+
+                }
+
+                ::placeholder{
+
+                    color: lightgray;
+                    opacity: 1;
+                }
+
+                button{
+
+                    background-color: rgb(113, 33, 204);
+                border: none;
+                padding-top: 6px;
+                
+                }
+
+            }
+        }
+
+
+}

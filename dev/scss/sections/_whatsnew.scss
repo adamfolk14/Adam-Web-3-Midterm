@@ -25,6 +25,8 @@
         }
 
         ul.article-grid{
+            list-style: none;
+            padding-left: 0;
 
 
             form{
@@ -33,6 +35,7 @@
 
                     background-color: rgb(113, 33, 204);
                 color: white;
+                border: none;
                 }
             }
 

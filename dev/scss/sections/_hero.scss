@@ -5,6 +5,7 @@
 
 .hero{
 
+    color: white;
     
         @include md{
             display: grid;
@@ -67,11 +68,14 @@
     
                 a{
                     grid-area: a;
+                    color: white;
                 }
     
                 img{
                     grid-area: img;
                 }
+
+                
 
         }
     

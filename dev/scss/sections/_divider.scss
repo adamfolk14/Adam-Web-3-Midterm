@@ -32,6 +32,7 @@
                 }
 
             &.box-1{
+                padding: 16px;
                 background-color: rgb(165, 165, 165);
                 @include md{
                     grid-area: box-1;
@@ -40,6 +41,7 @@
             }
 
             &.box-2{
+                padding: 16px;
                 background-color: rgb(165, 165, 165);
                 @include md{
                     grid-area: box-2;
@@ -64,6 +66,7 @@
                 grid-area: button;
                 background-color: rgb(113, 33, 204);
                 color: white;
+                border: none;
 
                 /*background-color: rgb(113, 33, 204);
                 text-decoration: none;

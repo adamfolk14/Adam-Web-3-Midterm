@@ -13,6 +13,7 @@ footer{
             button{
                 background-color: rgb(113, 33, 204);
             color: white;
+            border: none;
             }
         }
 
@@ -56,7 +57,16 @@ footer{
                     grid-area: follow;
                 }
 
+                ul li{
 
+                    display: inline-block;
+                }
+
+
+            }
+
+            a{
+                color: white;
             }
 
 

@@ -8,6 +8,8 @@
     
     ul{
 
+        list-style: none;
+        padding-left: 0;
    
 
         @include md{
@@ -46,9 +48,10 @@
 
 
             &.img-3{
-
+            display: none;
                 @include xl{
                     grid-area: g3;
+                    display: block;
                 }
             }
 

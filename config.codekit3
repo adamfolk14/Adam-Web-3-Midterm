@@ -113,6 +113,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/facebook-square.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/facebook-square.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/Instagram Grey.png" : {
       "ft" : 32768,
       "iS" : 476,
@@ -125,6 +135,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/instagram-square.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/instagram-square.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/assets\/Instagram.png" : {
       "ft" : 32768,
@@ -291,6 +311,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/assets\/search-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/search-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/search-light.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -379,6 +409,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/twitter-square.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/twitter-square.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/Twitter.png" : {
       "ft" : 32768,
       "iS" : 361,
@@ -404,6 +444,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/youtube-square.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/youtube-square.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/assets\/Youtube.png" : {
       "ft" : 32768,
@@ -534,11 +584,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/facebook-icon.svg" : {
+    "\/deploy\/img\/facebook-square.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/facebook-icon.svg",
+      "oAP" : "\/deploy\/img\/facebook-square.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -557,11 +607,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/instagram-icon.svg" : {
+    "\/deploy\/img\/instagram-square.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/instagram-icon.svg",
+      "oAP" : "\/deploy\/img\/instagram-square.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -742,6 +792,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/search-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/search-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/search-light.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -830,11 +890,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/twitter-icon.svg" : {
+    "\/deploy\/img\/twitter-square.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/twitter-icon.svg",
+      "oAP" : "\/deploy\/img\/twitter-square.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -866,11 +926,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/youtube-icon.svg" : {
+    "\/deploy\/img\/youtube-square.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/youtube-icon.svg",
+      "oAP" : "\/deploy\/img\/youtube-square.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -1117,6 +1177,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_search.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_search.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

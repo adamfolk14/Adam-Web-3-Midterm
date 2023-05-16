@@ -361,6 +361,14 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h2, h3 {
+  font-weight: 700;
+}
+
 /* =============
     Buttons
 ============= */
@@ -403,6 +411,15 @@ header .content {
   grid-template-columns: 1fr;
   padding-top: 16px;
 }
+header .content form button {
+  background-color: rgb(113, 33, 204);
+  border: none;
+}
+@media (min-width: 992px) {
+  header .content {
+    font-size: 35px;
+  }
+}
 
 /* =============
     Footer
@@ -414,6 +431,7 @@ footer {
 footer .content form button {
   background-color: rgb(113, 33, 204);
   color: white;
+  border: none;
 }
 @media (min-width: 768px) {
   footer .content {
@@ -443,6 +461,12 @@ footer .content form button {
     grid-area: follow;
   }
 }
+footer .content .follow ul li {
+  display: inline-block;
+}
+footer .content a {
+  color: white;
+}
 
 /* =============
     Whatsnew
@@ -464,9 +488,14 @@ footer .content form button {
     grid-template-columns: auto 1320px auto;
   }
 }
+.whats-new .whats-new-articles ul.article-grid {
+  list-style: none;
+  padding-left: 0;
+}
 .whats-new .whats-new-articles ul.article-grid form button {
   background-color: rgb(113, 33, 204);
   color: white;
+  border: none;
 }
 @media (min-width: 768px) {
   .whats-new .whats-new-articles ul.article-grid {
@@ -598,6 +627,7 @@ footer .content form button {
   }
 }
 .divider .container.box-1 {
+  padding: 16px;
   background-color: rgb(165, 165, 165);
 }
 @media (min-width: 768px) {
@@ -606,6 +636,7 @@ footer .content form button {
   }
 }
 .divider .container.box-2 {
+  padding: 16px;
   background-color: rgb(165, 165, 165);
 }
 @media (min-width: 768px) {
@@ -625,6 +656,7 @@ footer .content form button {
   grid-area: button;
   background-color: rgb(113, 33, 204);
   color: white;
+  border: none;
   /*background-color: rgb(113, 33, 204);
   text-decoration: none;
   color: white;
@@ -638,6 +670,9 @@ footer .content form button {
 /* =============
     Hero
 ============= */
+.hero {
+  color: white;
+}
 @media (min-width: 768px) {
   .hero {
     display: grid;
@@ -691,6 +726,7 @@ footer .content form button {
 }
 .hero .container .content a {
   grid-area: a;
+  color: white;
 }
 .hero .container .content img {
   grid-area: img;
@@ -699,6 +735,10 @@ footer .content form button {
 /* =============
     Gallery
 ============= */
+.gallery ul {
+  list-style: none;
+  padding-left: 0;
+}
 @media (min-width: 768px) {
   .gallery ul {
     display: grid;
@@ -725,8 +765,48 @@ footer .content form button {
     grid-area: g2;
   }
 }
+.gallery ul li.img-3 {
+  display: none;
+}
 @media (min-width: 1200px) {
   .gallery ul li.img-3 {
     grid-area: g3;
+    display: block;
   }
+}
+
+/* =============
+    Search
+============= */
+.search {
+  margin: 25px 0 25px 0;
+}
+.search .content form {
+  display: flex;
+}
+.search .content form input {
+  color: black;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid lightgray;
+}
+@media (min-width: 768px) {
+  .search .content form input {
+    font-size: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .search .content form input {
+    font-size: 35px;
+  }
+}
+.search .content form ::placeholder {
+  color: lightgray;
+  opacity: 1;
+}
+.search .content form button {
+  background-color: rgb(113, 33, 204);
+  border: none;
+  padding-top: 6px;
 }
